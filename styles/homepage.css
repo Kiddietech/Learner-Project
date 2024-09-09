@@ -1,0 +1,124 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 229, 229);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(54, 1, 1);
+    margin: 10px 0px;
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.graph {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /* margin-bottom: 200px; */
+    padding-bottom:150px;
+}
+
+.nav-menu {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+}
+
+.menu {
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu:hover {
+    background-color:white;
+    color: blueviolet;
+}
+
+.bolu {
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family:Arial;
+    margin: 10px 0px;
+}
+
+.more {
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    position:absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.para {
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 23px;
+    font-weight: 600;
+}
